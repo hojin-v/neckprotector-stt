@@ -1,0 +1,84 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-09",
+  "platform": "Windows 11 x64",
+  "cpu": "Intel Core Ultra 5 226V",
+  "regression_tests": {
+    "linux": 31,
+    "windows": 31
+  },
+  "source_public_audio_input": {
+    "frozen": false,
+    "mapped_key_started": true,
+    "panel_kept_focus": true,
+    "draft_revision": true,
+    "text_while_recording": true,
+    "mapped_key_stopped": true,
+    "auto_hide": true,
+    "clipboard_cumulative": true,
+    "archive_written": true,
+    "hold_delivers_before_release": true,
+    "public_audio_first_text_seconds": 1.75,
+    "public_audio_typed_before_stop": true,
+    "public_audio_final_matches_records": true,
+    "public_audio_records": 3,
+    "ok": true
+  },
+  "executable_desktop_input": {
+    "frozen": true,
+    "mapped_key_started": true,
+    "panel_kept_focus": true,
+    "draft_revision": true,
+    "text_while_recording": true,
+    "mapped_key_stopped": true,
+    "auto_hide": true,
+    "clipboard_cumulative": true,
+    "archive_written": true,
+    "hold_delivers_before_release": true,
+    "ok": true
+  },
+  "duplicate_launch": {
+    "duplicate_exit_code": 0,
+    "original_running": true,
+    "setup_windows": 1,
+    "ok": true
+  },
+  "executable_asr": {
+    "frozen": true,
+    "qt": "6.12.0",
+    "torch": "2.14.1+cpu",
+    "transformers": "5.19.0",
+    "capture": {
+      "frames_received": 7969,
+      "errors": []
+    },
+    "device": "cpu",
+    "load_seconds": 6.015,
+    "inference_seconds": 4.672,
+    "ok": true
+  },
+  "sample": {
+    "url": "https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen3-ASR-Repo/asr_en.wav",
+    "duration_seconds": 15.05
+  },
+  "limits": [
+    "Only the source integration run combined real-time public audio and external typing. The executable verified desktop typing and public audio inference separately.",
+    "No physical key remapper or user editor was controlled.",
+    "No Korean accuracy or GPU benchmark was performed."
+  ],
+  "installer": {
+    "installed": true,
+    "runtime_identical": true,
+    "preview": true,
+    "uninstalled": true
+  },
+  "portable_zip": {
+    "archive": "Sori-Windows-x64.zip",
+    "archive_bytes": 360871784,
+    "files": 15996,
+    "expanded_bytes": 1009989474,
+    "exe_sha256": "3c9d7b02d155516ae8e7a9db7e82682a8a42e1b77ff8e7dc76ddad5fa2cbe58d",
+    "zip_integrity": "passed",
+    "sha256": "a8aba89c0983a713694d1a76aaf979f23ba82acc2aa60d801e77203bc3836656"
+  }
+}
